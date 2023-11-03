@@ -1,0 +1,65 @@
+#banner_part {
+  background: url(../../../assets/images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 228px 0;
+}
+
+#banner_part .banner_text h4 {
+  color: #FFF;
+  font-family: Roboto Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+#banner_part .banner_text h2 {
+  color: #FFF;
+  font-family: Roboto Condensed;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 82px;
+  letter-spacing: -0.64px;
+  text-transform: uppercase;
+  width: 592px;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+#banner_part .banner_text .btn {
+  padding: 24px 64px;
+  background: #FFD2A4;
+  margin-bottom: 64px;
+}
+
+#banner_part .banner_text p {
+  color: #FFF;
+  font-family: Roboto Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  width: 308px;
+  position: absolute;
+  left: 34px;
+
+}
+
+#banner_part .banner_text .text {
+  position: relative;
+}
+
+#banner_part .banner_text .text::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 18px;
+  background: #FFD2A4;
+  display: inline-block;
+  top: 12px;
+  left: 0;
+}

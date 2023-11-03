@@ -1,0 +1,82 @@
+#benefits_part {
+  background: #F5F2F0;
+  padding: 128px 0;
+}
+
+#benefits_part .common_text h5 {
+  width: 432px;
+  margin: 0 auto;
+  margin-bottom: 64px
+}
+
+#benefits_part .benefits_cards {
+  display: flex;
+  column-gap: 24px;
+}
+
+#benefits_part .benefits_cards .benefit_card1 {
+  background: url(../../../assets/images/benefit_pic_1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 208px 32px 32px 32px;
+  width: 302px;
+
+}
+
+
+#benefits_part .benefits_cards .benefit_card2 {
+  background: url(../../../assets/images/benefit_pic_2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 296px 32px 32px 32px;
+  width: 302px;
+
+}
+
+
+#benefits_part .benefits_cards .benefit_card3 {
+  background: url(../../../assets/images/benefit_pic_3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 296px 32px 32px 32px;
+  width: 302px;
+}
+
+
+
+#benefits_part .benefits_cards .benefit_card4 {
+  background: url(../../../assets/images/benefit_pic_4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 296px 32px 32px 32px;
+  width: 302px;
+}
+
+
+#benefits_part .benefits_cards h4 {
+  color: #FFF;
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  text-transform: uppercase;
+}
+
+
+
+#benefits_part .benefits_cards p {
+  color: #FFF;
+  font-family: Roboto Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  width: 238px;
+  margin-top: 16px;
+}

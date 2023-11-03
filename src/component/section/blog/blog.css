@@ -1,0 +1,88 @@
+#blog_part {
+  padding-bottom: 128px;
+}
+
+#blog_part .blog_cards {
+  display: flex;
+  column-gap: 20px;
+
+}
+
+#blog_part .blog_cards .blog_card {
+  padding: 48px 32px;
+  background: #FFF5EB;
+  max-width: 300px;
+  transition: all ease 0.8s;
+  position: relative;
+}
+
+#blog_part .blog_cards .blog_card::before {
+  content: '';
+  height: 16px;
+  width: 302px;
+  position: absolute;
+  left: 0;
+  top: 95%;
+}
+
+#blog_part .blog_cards .blog_card:hover::before {
+  background: #FFD0A0;
+}
+
+#blog_part .blog_cards .activeCard::before {
+  background: #FFD0A0;
+}
+
+#blog_part .blog_cards .blog_card h5 {
+  font-family: Roboto Condensed;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+}
+
+
+#blog_part .blog_cards .blog_card h3 {
+  color: #161722;
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  text-transform: uppercase;
+  width: 218px;
+  margin: 16px 0;
+}
+
+#blog_part .blog_cards .blog_card p {
+  color: #161722;
+  font-family: Roboto Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  width: 238px;
+}
+
+#blog_part .blog_cards .blog_card h4 {
+  color: #161722;
+  font-family: Roboto Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 48px;
+  margin-bottom: 4px;
+}
+
+#blog_part .blog_cards .blog_card h6 {
+  color: #161722;
+  font-family: Roboto Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}

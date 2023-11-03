@@ -1,0 +1,53 @@
+#visit_part {
+  background: url(../../../assets/images/visit_pic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 128px 0;
+  margin-bottom: 128px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#visit_part .visit_content {
+  padding: 72px 48px;
+  background: #FFF;
+  width: 768px;
+  height: 480px;
+  border-bottom: 16px solid #FFD2A4;
+  ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#visit_part .visit_content .visit_text h2 {
+  color: #161722;
+  font-family: Roboto Condensed;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -0.48px;
+  text-transform: uppercase;
+  width: 368px;
+}
+
+#visit_part .visit_content .visit_text p {
+  color: #161722;
+  font-family: Roboto Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  width: 302px;
+  margin: 16px 0;
+}
+
+#visit_part .visit_content .icon {
+  font-size: 140px;
+  color: #FFF5EB;
+
+}

@@ -1,0 +1,87 @@
+/*...............Nav Section Start Here.................*/
+nav {
+  background: black;
+  padding: 12px 0;
+
+}
+
+nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav ul li {
+  height: 50px;
+}
+
+nav ul li a {
+  height: 100%;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  column-gap: 48px;
+
+  color: #FFF;
+  font-family: Roboto Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+
+nav ul li a:hover {
+  color: #09af90;
+}
+
+
+nav li:first-child {
+  margin-right: auto;
+}
+
+nav .btn {
+  margin-left: 400px;
+
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: black;
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  backdrop-filter: blur(10px);
+}
+
+.sidebar ul li {
+  width: 100%;
+}
+
+.sidebar ul li a {
+  width: 100%;
+}
+
+
+.menu-button {
+  display: none;
+}
+
+.menu-button a i {
+  font-size: 25px;
+}
+
+.hidebar a i {
+  font-size: 25px;
+}
+
+/*...............Nav Section End Here.................*/

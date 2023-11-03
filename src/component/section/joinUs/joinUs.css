@@ -1,0 +1,140 @@
+#joinUs_part {
+  padding: 128px 0;
+}
+
+#joinUs_part .common_text h5 {
+  width: 554px;
+  margin: 0 auto;
+  margin-bottom: 64px
+}
+
+#joinUs_part .joinContents {
+  display: flex;
+}
+
+#joinUs_part .joinContents .Event {
+  width: 435px;
+  padding: 32px 32px 61px 89px;
+  background: #FFF5EB;
+}
+
+#joinUs_part .joinContents .date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#joinUs_part .joinContents .date h6 {
+  font-family: Roboto Condensed;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+}
+
+#joinUs_part .joinContents .date .dates h4 {
+  color: #161722;
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  text-transform: uppercase;
+}
+
+#joinUs_part .joinContents .date .dates h3 {
+  color: #161722;
+  font-family: Roboto Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+#joinUs_part .joinContents .date .dates {
+  margin-bottom: 20px;
+}
+
+#joinUs_part .joinContents .Event h2 {
+  color: #161722;
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  text-transform: uppercase;
+  width: 210px;
+}
+
+#joinUs_part .joinContents .Event p {
+  color: #161722;
+  font-family: Roboto Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  width: 256px;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+#joinUs_part .joinContents .Event .Event_dateTime {
+  display: flex;
+  column-gap: 16px;
+}
+
+#joinUs_part .joinContents .Event .Event_dateTime .i {
+  font-size: 20px;
+  color: #161722;
+  width: 20px;
+  position: relative;
+  top: 30px
+}
+
+#joinUs_part .joinContents .Event .Event_dateTime p {
+  color: #161722;
+  font-family: Roboto Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  width: 137px;
+}
+
+#joinUs_part .joinContents .Event .Event_address_p {
+  width: 184px;
+}
+
+#joinUs_part .joinContents .Event .btn {
+  background: black;
+  color: #FFD2A4;
+}
+
+
+
+#joinUs_part .joinContents img {
+  height: 100%;
+  width: 100%;
+}
+
+#joinUs_part .view {
+  margin-top: 48px;
+  text-align: right;
+  color: #161722;
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+
+#joinUs_part .view .i {
+  position: relative;
+  top: 4px;
+}
