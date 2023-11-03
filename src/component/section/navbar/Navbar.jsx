@@ -39,7 +39,7 @@ const Navbar = () => {
           <ul className="items">
 
             <li><a href="#">
-              <img src="../../src/assets/images/logo.png" alt="" />
+              <img src="../../../../src/component/images/logo.png" alt="logo.png" />
             </a></li>
             <li className="hideOnMobile"><a href="#">Home</a></li>
             <li className="hideOnMobile"><a href="#">About us</a></li>
