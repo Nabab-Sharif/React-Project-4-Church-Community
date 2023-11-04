@@ -115,9 +115,13 @@
   color: #FFD2A4;
 }
 
+#joinUs_part .joinContents .image {
+  width: 845px;
+  object-fit: cover;
+  overflow: hidden;
+}
 
-
-#joinUs_part .joinContents img {
+#joinUs_part .joinContents .image img {
   height: 100%;
   width: 100%;
 }
