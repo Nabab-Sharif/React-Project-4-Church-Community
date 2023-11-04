@@ -45,7 +45,7 @@ const JoinUs = () => {
             </div>
 
             <div className="image">
-              <img src="../../../../src/component/images/joinUs_pic.jpg" alt="joinUs_pic.jpg" />
+              <img src="../../../../src/assets/images/joinUs_pic.jpg" alt="joinUs_pic.jpg" />
             </div>
 
           </div>

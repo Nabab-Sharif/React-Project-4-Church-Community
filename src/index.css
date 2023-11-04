@@ -173,9 +173,13 @@ ul {
     margin-bottom: 10px;
   }
 
+
+  #love_part .common_text {
+    text-align: center;
+  }
+
   #love_part .common_text .btn {
-    top: 0;
-    left: 20%;
+    position: static;
   }
 
   #love_part .loveCards {
@@ -187,7 +191,6 @@ ul {
 
   #love_part .loveCards .Card_2 {
     margin-top: 0;
-    width: 90%;
   }
 
   #love_part .common_text .text2_para {
@@ -469,10 +472,13 @@ ul {
     margin-bottom: 10px;
   }
 
-  #love_part .common_text .btn {
-    top: 4px;
-    left: 35%;
 
+  #love_part .common_text {
+    text-align: center;
+  }
+
+  #love_part .common_text .btn {
+    position: static;
   }
 
   #love_part .loveCards {
@@ -482,9 +488,14 @@ ul {
     row-gap: 20px;
   }
 
+  #love_part .loveCards .loveCard {
+    width: 80%;
+    height: 80%;
+
+  }
+
   #love_part .loveCards .Card_2 {
     margin-top: 0;
-    width: 51%;
   }
 
   #love_part .common_text .text2_para {
@@ -770,9 +781,14 @@ ul {
     margin-bottom: 35px;
   }
 
-  #love_part .common_text .btn {
-    top: 0px;
+  #love_part .common_text {
+    text-align: center;
   }
+
+  #love_part .common_text .btn {
+    position: static;
+  }
+
 
   #love_part .loveCards {
     flex-wrap: wrap;

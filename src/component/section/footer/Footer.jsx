@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="footer_contents">
 
             <div className="address">
-              <img src="../../../../src/component/images/footerLogo.png" alt="footerLogo.png" />
+              <img src="../../../../src/assets/images/footerLogo.png" alt="footerLogo.png" />
               <p className="copy">© Copyright Finsweet 2022</p>
               <p>(480) 555-0103</p>
               <p className="ad">4517 Washington Ave. </p>
