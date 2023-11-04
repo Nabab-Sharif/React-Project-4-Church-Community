@@ -2,7 +2,7 @@
 import './navbar.css'
 import { AiOutlineClose } from 'react-icons/ai'
 import { AiOutlineBars } from 'react-icons/ai'
-
+import src from "../../../../src/assets/images/logo.png"
 
 
 
@@ -39,7 +39,7 @@ const Navbar = () => {
           <ul className="items">
 
             <li><a href="#">
-              <img src="../../../../src/assets/images/logo.png" alt="logo.png" />
+              <img src={src} alt="logo.png" />
             </a></li>
             <li className="hideOnMobile"><a href="#">Home</a></li>
             <li className="hideOnMobile"><a href="#">About us</a></li>

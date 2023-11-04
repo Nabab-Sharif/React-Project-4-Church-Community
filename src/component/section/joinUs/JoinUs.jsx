@@ -3,6 +3,9 @@ import './joinUs.css'
 import { BsArrowRight } from 'react-icons/bs'
 import { BiTimeFive } from 'react-icons/bi'
 import { MdLocationSearching } from 'react-icons/md'
+import src from "../../../../src/assets/images/joinUs_pic.jpg"
+
+
 
 const JoinUs = () => {
   return (
@@ -45,7 +48,7 @@ const JoinUs = () => {
             </div>
 
             <div className="image">
-              <img src="../../../../src/assets/images/joinUs_pic.jpg" alt="joinUs_pic.jpg" />
+              <img src={src} alt="joinUs_pic.jpg" />
             </div>
 
           </div>

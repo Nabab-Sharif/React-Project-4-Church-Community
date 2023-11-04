@@ -1,6 +1,10 @@
 
 import './love.css'
 import { BsArrowRight } from 'react-icons/bs'
+import src from "../../../../src/assets/images/love_1.jpg"
+import src2 from "../../../../src/assets/images/love_2.jpg"
+import src3 from "../../../../src/assets/images/love_3.jpg"
+
 
 
 const Love = () => {
@@ -25,14 +29,14 @@ const Love = () => {
           <div className="loveCards">
             {/* ---- love card start here ---- */}
             <div className="loveCard">
-              <img src="../../../../src/assets/images/love_1.jpg" alt="love_1.jpg" />
+              <img src={src} alt="love_1.jpg" />
             </div>
             {/* ---- love card end here ---- */}
 
 
             {/* ---- love card start here ---- */}
             <div className="loveCard Card_2">
-              <img src="../../../../src/assets/images/love_2.jpg" alt="love_2.jpg" />
+              <img src={src2} alt="love_2.jpg" />
             </div>
             {/* ---- love card end here ---- */}
 
@@ -40,7 +44,7 @@ const Love = () => {
             {/* ---- love card start here ---- */}
             <div className="loveCard">
               <picture>
-                <img src="../../../../src/assets/images/love_3.jpg" alt="love_3.jpg" />
+                <img src={src3} alt="love_3.jpg" />
               </picture>
             </div>
             {/* ---- love card end here ---- */}

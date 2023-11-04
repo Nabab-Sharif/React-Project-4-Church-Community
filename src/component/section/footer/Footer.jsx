@@ -1,7 +1,7 @@
 
 import './footer.css'
 import { BsFacebook, BsTwitter, BsLinkedin } from 'react-icons/bs'
-
+import src from "../../../../src/assets/images/footerLogo.png"
 
 
 
@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="footer_contents">
 
             <div className="address">
-              <img src="../../../../src/assets/images/footerLogo.png" alt="footerLogo.png" />
+              <img src={src} alt="footerLogo.png" />
               <p className="copy">© Copyright Finsweet 2022</p>
               <p>(480) 555-0103</p>
               <p className="ad">4517 Washington Ave. </p>
