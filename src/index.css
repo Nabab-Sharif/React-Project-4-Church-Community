@@ -318,8 +318,9 @@ ul {
     text-align: center;
   }
 
-  #blog_part .blog_cards .blog_card::before {
-    width: 288px;
+
+  #blog_part .blog_cards .blog_card:before {
+    width: 100%;
   }
 
 
