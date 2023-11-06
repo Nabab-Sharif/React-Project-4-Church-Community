@@ -1,9 +1,9 @@
 
 import './love.css'
 import { BsArrowRight } from 'react-icons/bs'
-import src from "../../../../src/assets/images/love_1.jpg"
-import src2 from "../../../../src/assets/images/love_2.jpg"
-import src3 from "../../../../src/assets/images/love_3.jpg"
+import src from "../../../src/assets/images/love_1.jpg"
+import src2 from "../../../src/assets/images/love_2.jpg"
+import src3 from "../../../src/assets/images/love_3.jpg"
 
 
 

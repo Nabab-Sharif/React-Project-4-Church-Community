@@ -1,7 +1,7 @@
 
 import './footer.css'
 import { BsFacebook, BsTwitter, BsLinkedin } from 'react-icons/bs'
-import src from "../../../../src/assets/images/footerLogo.png"
+import src from "../../../src/assets/images/footerLogo.png"
 
 
 

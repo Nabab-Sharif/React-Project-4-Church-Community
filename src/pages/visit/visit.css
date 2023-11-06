@@ -1,10 +1,10 @@
 #visit_part {
-  background: url(../../../../src/assets/images/visit_pic.jpg);
+  background: url(../../../src/assets/images/visit_pic.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding: 128px 0;
-  margin-bottom: 128px;
+  margin: 50px 0;
   display: flex;
   justify-content: center;
   align-items: center;

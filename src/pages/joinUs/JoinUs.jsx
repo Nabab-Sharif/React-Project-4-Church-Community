@@ -3,7 +3,8 @@ import './joinUs.css'
 import { BsArrowRight } from 'react-icons/bs'
 import { BiTimeFive } from 'react-icons/bi'
 import { MdLocationSearching } from 'react-icons/md'
-import src from "../../../../src/assets/images/joinUs_pic.jpg"
+import src from "../../../src/assets/images/joinUs_pic.jpg"
+
 
 
 

@@ -18,11 +18,10 @@ nav ul li {
 
 nav ul li a {
   height: 100%;
-  padding: 0 30px;
   display: flex;
   align-items: center;
-  column-gap: 48px;
-
+  padding: 0 24px;
+  column-gap: 22px;
   color: #FFF;
   font-family: Roboto Condensed;
   font-size: 16px;
@@ -31,7 +30,6 @@ nav ul li a {
   line-height: normal;
   text-transform: uppercase;
 }
-
 
 nav ul li a:hover {
   color: #09af90;
@@ -42,9 +40,11 @@ nav li:first-child {
   margin-right: auto;
 }
 
-nav .btn {
-  margin-left: 400px;
 
+nav .btn {
+  margin-left: 218px;
+  padding: 22px 25px;
+  font-size: 15px;
 }
 
 .sidebar {
