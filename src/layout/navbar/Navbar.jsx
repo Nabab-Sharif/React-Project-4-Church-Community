@@ -2,7 +2,7 @@
 import './navbar.css'
 import { AiOutlineClose } from 'react-icons/ai'
 import { AiOutlineBars } from 'react-icons/ai'
-import src from "../../../src/assets/images/logo.png"
+import src from '../../../src/assets/images/logo.png'
 import { Link, NavLink } from 'react-router-dom'
 
 
