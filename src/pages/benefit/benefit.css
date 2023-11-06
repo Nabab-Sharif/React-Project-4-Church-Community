@@ -15,7 +15,7 @@
 }
 
 #benefits_part .benefits_cards .benefit_card1 {
-  background: url(../../../../src/assets/images/benefit_pic_1.png);
+  background: url(../../../src/assets/images/benefit_pic_1.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,7 +26,7 @@
 
 
 #benefits_part .benefits_cards .benefit_card2 {
-  background: url(../../../../src/assets/images/benefit_pic_2.png);
+  background: url(../../../src/assets/images/benefit_pic_2.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -37,7 +37,7 @@
 
 
 #benefits_part .benefits_cards .benefit_card3 {
-  background: url(../../../../src/assets/images/benefit_pic_3.png);
+  background: url(../../../src/assets/images/benefit_pic_3.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -48,7 +48,7 @@
 
 
 #benefits_part .benefits_cards .benefit_card4 {
-  background: url(../../../../src/assets/images/benefit_pic_4.png);
+  background: url(../../../src/assets/images/benefit_pic_4.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
